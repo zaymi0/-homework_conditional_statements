@@ -13,14 +13,14 @@ public class hwCS5 {
         System.out.print("Введите третье число ");
         int num2 = scanner.nextInt();
 
-        if (num > num1 && num > num2) {
-            System.out.println("Наибольшее число " + num);
-
-        } else if (num1 > num && num1 > num2) {
-            System.out.println("Наибольшее число " + num1);
-
-        } else {
-            System.out.println("Наибольшее число " + num2);
+        if (num < num1) {
+            num = num1;
         }
+
+        if (num < num2) {
+            num = num2;
+        }
+
+        System.out.println("Наибольшее число " + num);
     }
 }
