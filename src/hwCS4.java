@@ -15,8 +15,7 @@ public class hwCS4 {
                 negativeNumbers++;
             }
         }
-        System.out.printf("количество отрицательных %d:",negativeNumbers);
-        System.out.println();
+        System.out.printf("количество отрицательных: %d\n",negativeNumbers);
         System.out.printf("количество положительных: %d",positiveNumbers);
     }
 }
